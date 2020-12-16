@@ -1,4 +1,8 @@
 <template>
+ <header>
+    <h3>Remember me</h3>
+    <button>+ Add</button>
+  </header>
   <resources></resources>
 </template>
 
