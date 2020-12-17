@@ -1,6 +1,6 @@
 <template>
-  <section v-for="resource in storedResources" :key="resource.id" class="mb-5 h-20 w-4/5 m-auto bg-white">
-    <div class="mt-3 flex justify-between m-auto w-11/12">
+  <section v-for="resource in storedResources" :key="resource.id" class="my-5 max-w-2x1 w-11/12 p-3 m-auto bg-white">
+    <div class="flex justify-between m-auto">
       <h3 class="font-medium">{{ resource.header }}</h3>
       <button>
         <svg
@@ -19,7 +19,7 @@
         </svg>
       </button>
     </div>
-    <div class="m-auto w-11/12">
+    <div class="m-auto">
       <p class="pt-1 text-gray-500">{{ resource.desc }}</p>
     </div>
   </section>
