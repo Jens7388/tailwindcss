@@ -1,12 +1,11 @@
 <template>
-  <section v-for="resource in storedResources" :key="resource.id" class="mb-5 h-20 w-4/5 mx-auto bg-white">
-    <div class="mt-3 flex justify-between mx-auto w-11/12">
+  <section v-for="resource in storedResources" :key="resource.id" class="mb-5 h-20 w-4/5 m-auto bg-white">
+    <div class="mt-3 flex justify-between m-auto w-11/12">
       <h3 class="font-medium">{{ resource.header }}</h3>
       <button>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           fill="none"
-          viewBox="0 0 24 24"
           stroke="lightgray"
           width="24"
           height="24"
@@ -20,7 +19,7 @@
         </svg>
       </button>
     </div>
-    <div class="mx-auto w-11/12">
+    <div class="m-auto w-11/12">
       <p class="pt-1 text-gray-500">{{ resource.desc }}</p>
     </div>
   </section>
@@ -39,7 +38,7 @@ export default {
         {
           id: "google",
           header: "Google",
-          desc: "Learn to google....",
+          desc: "Learn to google...",
         },
       ],
     };
